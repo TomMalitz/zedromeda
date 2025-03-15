@@ -312,7 +312,7 @@
 		},
 		{
 			"name": "lighter-green",
-			"scope": "keyword.control.conditional.vue",
+			"scope": "keyword.control.loop.vue,keyword.control.conditional.vue",
 			"settings": {
 				"foreground": "#96DF71"
 			}

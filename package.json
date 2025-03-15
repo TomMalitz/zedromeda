@@ -3,7 +3,7 @@
   "icon": "assets/icon.png",
   "displayName": "Zedromeda",
   "description": "Zedromeda theme aims to be as close as possible to the original Zed Editor Andromeda theme.",
-  "version": "0.0.14",
+  "version": "0.0.15",
   "license": "MIT",
   "publisher": "tommalitz",
   "repository": {
