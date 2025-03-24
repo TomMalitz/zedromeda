@@ -265,28 +265,34 @@
 		"selfKeyword": "#f7f7f8",
 		"variable.readonly": "#f7f7f8",
 		"field": "#f7f7f8",
-
 		// Yellow
 		"parameter.callable": "#FEE56C",
 		// Orange
 		// "operator": "#F29C14",
-
-		// Lighter Green #96DF71
+		// Lighter Green
 		"const": "#96DF71",
 		"constant.static": "#96DF71",
 		"variable.defaultLibrary": "#96DF71",
-		
 		// Light Green
 		"class": "#08E7C5",
 		"derive": "#08E7C5",
 		"enumMember": "#08e7c5",
 		"variable.other.readwrite:csharp": "#08e7c5",
-
 		// Dark Green
 		"decorator.attribute": "#10A793",
 		"controlKeyword": "#10A793",
 		"property": "#10A793",
 		"decorator": "#10A793",
+		// Styles
+		"*.mutable": {
+			"fontStyle": "underline"
+		},
+		"parameter": {
+			"fontStyle": "italic"
+		},
+		"comment": {
+			"fontStyle": "italic"
+		}
 	},
 	"tokenColors": [
 		{
@@ -2169,7 +2175,7 @@
 			"name": "Comments",
 			"scope": "comment, punctuation.definition.comment",
 			"settings": {
-				// "fontStyle": "italic",
+				"fontStyle": "italic",
 				"foreground": "#afabb1"
 			}
 		},
