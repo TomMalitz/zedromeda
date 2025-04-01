@@ -284,9 +284,9 @@
 		"property": "#10A793",
 		"decorator": "#10A793",
 		// Styles
-		"*.mutable": {
-			"fontStyle": "underline"
-		},
+		// "*.mutable": {
+		// 	"fontStyle": "underline"
+		// },
 		"parameter": {
 			"fontStyle": "italic"
 		},
