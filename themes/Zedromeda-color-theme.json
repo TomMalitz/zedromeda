@@ -332,7 +332,7 @@
 		},
 		{
 			"name": "dark-green",
-			"scope": "keyword.control.switch.ts,keyword.control.switch.js,keyword.operator.expression.await.cs,keyword.control.loop.js,keyword.control.loop.ts,meta.import.ts,meta.import.js.jsx,keyword.control.flow.js.jsx,meta.export.default.tsx,meta.import.tsx,keyword.control.flow.tsx,punctuation.definition.tag.begin.tsx,punctuation.definition.tag.end.tsx,punctuation.definition.tag.end.js.jsx,punctuation.definition.tag.begin.js.jsx,keyword.control.import.js.jsx,keyword.control.import.js.jsx,keyword.control.at-rule.media.css,keyword.control.at-rule.keyframes.css,keyword.control.trycatch.ts,keyword.control.at-rule.apply.tailwind,keyword.control.at-rule.layer.tailwind,keyword.other.important.css,keyword.control.default.ts,keyword.control.default.js,keyword.control.export.js,keyword.control.import.ts,keyword.control.conditional.ts,keyword.control.flow.ts,keyword.control.export.ts,keyword.other.rust,keyword.other.directive.using.cs,keyword.control.conditional.if.cs,keyword.control.context.using.cs",
+			"scope": "keyword.operator.expression.new.cs,variable.other.object.property.js,variable.other.object.property.ts,keyword.control.switch.ts,keyword.control.switch.js,keyword.operator.expression.await.cs,keyword.control.loop.js,keyword.control.loop.ts,meta.import.ts,meta.import.js.jsx,keyword.control.flow.js.jsx,meta.export.default.tsx,meta.import.tsx,keyword.control.flow.tsx,punctuation.definition.tag.begin.tsx,punctuation.definition.tag.end.tsx,punctuation.definition.tag.end.js.jsx,punctuation.definition.tag.begin.js.jsx,keyword.control.import.js.jsx,keyword.control.import.js.jsx,keyword.control.at-rule.media.css,keyword.control.at-rule.keyframes.css,keyword.control.trycatch.ts,keyword.control.at-rule.apply.tailwind,keyword.control.at-rule.layer.tailwind,keyword.other.important.css,keyword.control.default.ts,keyword.control.default.js,keyword.control.export.js,keyword.control.import.ts,keyword.control.conditional.ts,keyword.control.flow.ts,keyword.control.export.ts,keyword.other.rust,keyword.other.directive.using.cs,keyword.control.conditional.if.cs,keyword.control.context.using.cs",
 			"settings": {
 				"foreground": "#10A793"
 			}
@@ -379,13 +379,6 @@
 				"foreground": "#08e7c5"
 			}
 		},
-		// {
-		// 	"name": "entity.name.type.rust",
-		// 	"scope": "entity.name.type.rust",
-		// 	"settings": {
-		// 		"foreground": "#fff"
-		// 	}
-		// },
 		{
 			"name": "rust punctuation",
 			"scope": "punctuation.definition.attribute.rust,punctuation.brackets.attribute.rust",
@@ -634,13 +627,6 @@
 				"foreground": "#f29c14"
 			}
 		},
-		// {
-		// 	"name": "support.constant.property-value.scss",
-		// 	"scope": "support.constant.property-value.scss,support.constant.property-value.css",
-		// 	"settings": {
-		// 		"foreground": "#96df71"
-		// 	}
-		// },
 		{
 			"name": "CSS/SCSS/LESS Operators",
 			"scope": "keyword.operator.css,keyword.operator.scss,keyword.operator.less",
@@ -732,19 +718,6 @@
 				"foreground": "#96df71"
 			}
 		},
-		// {
-		// 	"name": "js/ts Keyword",
-		// 	"scope": [
-		// 		"keyword.operator.expression.instanceof",
-		// 		"keyword.operator.new",
-		// 		"keyword.operator.ternary",
-		// 		"keyword.operator.optional",
-		// 		"keyword.operator.expression.keyof"
-		// 	],
-		// 	"settings": {
-		// 		"foreground": "#10a793"
-		// 	}
-		// },
 		{
 			"name": "js/ts console",
 			"scope": "support.type.object.console",
@@ -892,13 +865,6 @@
 				"foreground": "#96df71"
 			}
 		},
-		// {
-		// 	"name": "Operators",
-		// 	"scope": "keyword.operator",
-		// 	"settings": {
-		// 		"foreground": "#F29C14"
-		// 	}
-		// },
 		{
 			"name": "Compound Assignment Operators",
 			"scope": "keyword.operator.assignment.compound",
@@ -913,13 +879,6 @@
 				"foreground": "#f29c14"
 			}
 		},
-		// {
-		// 	"name": "Keywords",
-		// 	"scope": "keyword",
-		// 	"settings": {
-		// 		"foreground": "#10a793"
-		// 	}
-		// },
 		{
 			"name": "Namespaces",
 			"scope": "entity.name.namespace",
@@ -1034,13 +993,6 @@
 				"foreground": "#08e7c5"
 			}
 		},
-		// {
-		// 	"name": "Keyword Control",
-		// 	"scope": "keyword.control",
-		// 	"settings": {
-		// 		"foreground": "#10a793"
-		// 	}
-		// },
 		{
 			"name": "Control Elements",
 			"scope": "control.elements, keyword.operator.less",
@@ -1167,29 +1119,6 @@
 				"foreground": "#f7f7f8"
 			}
 		},
-		// {
-		// 	"name": "Attributes",
-		// 	"scope": "entity.other.attribute-name",
-		// 	"settings": {
-		// 		"foreground": "#96df71"
-		// 	}
-		// },
-		// {
-		// 	"name": "Attribute IDs",
-		// 	"scope": "entity.other.attribute-name.id",
-		// 	"settings": {
-		// 		"fontStyle": "",
-		// 		"foreground": "#fee56c"
-		// 	}
-		// },
-		// {
-		// 	"name": "Attribute class",
-		// 	"scope": "entity.other.attribute-name.class.css",
-		// 	"settings": {
-		// 		"fontStyle": "",
-		// 		"foreground": "#96df71"
-		// 	}
-		// },
 		{
 			"name": "Selector",
 			"scope": "meta.selector",
@@ -1211,13 +1140,6 @@
 				"foreground": "#fee56c"
 			}
 		},
-		// {
-		// 	"name": "Units",
-		// 	"scope": "keyword.other.unit",
-		// 	"settings": {
-		// 		"foreground": "#f7f7f8"
-		// 	}
-		// },
 		{
 			"name": "Bold",
 			"scope": "markup.bold,todo.bold",
@@ -1696,26 +1618,6 @@
 				"foreground": "#10a793"
 			}
 		},
-		// {
-		// 	"name": "String interpolation",
-		// 	"scope": [
-		// 		"punctuation.definition.template-expression.begin",
-		// 		"punctuation.definition.template-expression.end",
-		// 		"punctuation.section.embedded"
-		// 	],
-		// 	"settings": {
-		// 		"foreground": "#f7f7f8"
-		// 	}
-		// },
-		// {
-		// 	"name": "Reset JavaScript string interpolation expression",
-		// 	"scope": [
-		// 		"meta.template.expression"
-		// 	],
-		// 	"settings": {
-		// 		"foreground": "#f7f7f8"
-		// 	}
-		// },
 		{
 			"name": "Import module JS",
 			"scope": [
@@ -2215,13 +2117,6 @@
 				"fontStyle": "italic"
 			}
 		},
-		// {
-		// 	"name": "custom html tags",
-		// 	"scope": "meta.tag.other.unrecognized.html.derivative",
-		// 	"settings": {
-		// 		"foreground": "#08E7C5",
-		// 	}
-		// },
 		{
 			"name": "html tags",
 			"scope": "meta.tag.structure.div.start.html",
