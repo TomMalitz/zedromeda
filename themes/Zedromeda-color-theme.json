@@ -283,16 +283,6 @@
 		"controlKeyword": "#10A793",
 		"property": "#10A793",
 		"decorator": "#10A793",
-		// Styles
-		// "*.mutable": {
-		// 	"fontStyle": "underline"
-		// },
-		"parameter": {
-			"fontStyle": "italic"
-		},
-		"comment": {
-			"fontStyle": "italic"
-		}
 	},
 	"tokenColors": [
 		{
@@ -332,7 +322,7 @@
 		},
 		{
 			"name": "dark-green",
-			"scope": "support.constant.edge,meta.attribute.rust,storage.type,keyword.operator.expression.new.cs,variable.other.object.property,keyword.control.switch,keyword.operator.expression.await.cs,keyword.control.loop,meta.import,keyword.control.flow,meta.export.default,punctuation.definition.tag.begin,punctuation.definition.tag.end,keyword.control.import,keyword.control.at-rule.media.css,keyword.control.at-rule.keyframes.css,keyword.control.trycatch.ts,keyword.control.at-rule.apply.tailwind,keyword.control.at-rule.layer.tailwind,keyword.other.important.css,keyword.control.default,keyword.control.export,keyword.control.import,keyword.control.conditional,keyword.control.export,keyword.other.rust,keyword.other.directive.using.cs,keyword.control.conditional.if.cs,keyword.control.context.using.cs",
+			"scope": "keyword.control.razor,keyword.control.cshtml,storage.modifier,support.constant.edge,meta.attribute.rust,storage.type,keyword.operator.expression.new.cs,variable.other.object.property,keyword.control.switch,keyword.operator.expression.await.cs,keyword.control.loop,meta.import,keyword.control.flow,meta.export.default,punctuation.definition.tag.begin,punctuation.definition.tag.end,keyword.control.import,keyword.control.at-rule.media.css,keyword.control.at-rule.keyframes.css,keyword.control.trycatch.ts,keyword.control.at-rule.apply.tailwind,keyword.control.at-rule.layer.tailwind,keyword.other.important.css,keyword.control.default,keyword.control.export,keyword.control.import,keyword.control.conditional,keyword.control.export,keyword.other.rust,keyword.other.directive.using.cs,keyword.control.conditional.if.cs,keyword.control.context.using.cs",
 			"settings": {
 				"foreground": "#10A793"
 			}
@@ -1530,7 +1520,6 @@
 			"name": "Comments",
 			"scope": "comment, punctuation.definition.comment",
 			"settings": {
-				"fontStyle": "italic",
 				"foreground": "#afabb1"
 			}
 		},
