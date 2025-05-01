@@ -268,6 +268,7 @@
 		// Yellow
 		"parameter.callable": "#FEE56C",
 		// Orange
+		"operatorOverloaded:csharp": "#F29C14",
 		// "operator": "#F29C14",
 		// Lighter Green
 		"const": "#96DF71",
@@ -287,11 +288,12 @@
 	"tokenColors": [
 		{
 			"name": "white",
-			"scope": "variable.parameter.function,constant.other.character-class.regexp,variable.language.self.rust,variable.language.rust,punctuation.definition.attribute.rust,punctuation.brackets.attribute.rust,punctuation.definition.lifetime.rust,entity.other.attribute-name.class.css,support.constant.property-value.css,keyword.operator.type.annotation.ts",
+			"scope": "punctuation.definition.block,meta.brace.round,punctuation.definition.parameters,variable.parameter.function,constant.other.character-class.regexp,variable.language.self.rust,variable.language.rust,punctuation.definition.attribute.rust,punctuation.brackets.attribute.rust,punctuation.definition.lifetime.rust,entity.other.attribute-name.class.css,support.constant.property-value.css,keyword.operator.type.annotation.ts",
 			"settings": {
 				"foreground": "#f7f7f8"
 			}
 		},
+		// punctuation.definition.parameters
 		{
 			"name": "yellow",
 			"scope": "meta.diff.header.from-file,meta.diff.header.to-file,punctuation.definition.from-file.diff,punctuation.definition.to-file.diff,support.function.std.rust",
@@ -301,7 +303,7 @@
 		},
 		{
 			"name": "orange",
-			"scope": "punctuation.definition.string.begin,punctuation.definition.string.end,punctuation.section.embedded.rust,punctuation.definition.interpolation.rust,keyword.operator.dereference.rust,punctuation.brackets.angle.rust,keyword.operator.math.rust,keyword.operator.borrow.and.rust,keyword.operator.arrow.skinny.rust,keyword.operator.arrow.fat.rust,meta.template.expression,keyword.operator.spread,punctuation.accessor.optional,storage.type.function.arrow",
+			"scope": "punctuation.definition.typeparameters,punctuation.definition.string.begin,punctuation.definition.string.end,punctuation.section.embedded.rust,punctuation.definition.interpolation.rust,keyword.operator.dereference.rust,punctuation.brackets.angle.rust,keyword.operator.math.rust,keyword.operator.borrow.and.rust,keyword.operator.arrow.skinny.rust,keyword.operator.arrow.fat.rust,meta.template.expression,keyword.operator.spread,punctuation.accessor.optional,storage.type.function.arrow",
 			"settings": {
 				"foreground": "#F29C14"
 			}
@@ -322,7 +324,7 @@
 		},
 		{
 			"name": "dark-green",
-			"scope": "keyword.other.using,keyword.control.razor,keyword.control.cshtml,storage.modifier,support.constant.edge,meta.attribute.rust,storage.type,keyword.operator.expression.new.cs,variable.other.object.property,keyword.control.switch,keyword.operator.expression.await.cs,keyword.control.loop,meta.import,keyword.control.flow,meta.export.default,punctuation.definition.tag.begin,punctuation.definition.tag.end,keyword.control.import,keyword.control.at-rule.media.css,keyword.control.at-rule.keyframes.css,keyword.control.trycatch.ts,keyword.control.at-rule.apply.tailwind,keyword.control.at-rule.layer.tailwind,keyword.other.important.css,keyword.control.default,keyword.control.export,keyword.control.import,keyword.control.conditional,keyword.control.export,keyword.other.rust,keyword.other.directive.using.cs,keyword.control.conditional.if.cs,keyword.control.context.using.cs",
+			"scope": "variable.other.object.property.cs,keyword.other.using,keyword.control.razor,keyword.control.cshtml,storage.modifier,support.constant.edge,meta.attribute.rust,storage.type,keyword.operator.expression.new.cs,variable.other.object.property,keyword.control.switch,keyword.operator.expression.await.cs,keyword.control.loop,meta.import,keyword.control.flow,meta.export.default,punctuation.definition.tag.begin,punctuation.definition.tag.end,keyword.control.import,keyword.control.at-rule.media.css,keyword.control.at-rule.keyframes.css,keyword.control.trycatch.ts,keyword.control.at-rule.apply.tailwind,keyword.control.at-rule.layer.tailwind,keyword.other.important.css,keyword.control.default,keyword.control.export,keyword.control.import,keyword.control.conditional,keyword.control.export,keyword.other.rust,keyword.other.directive.using.cs,keyword.control.conditional.if.cs,keyword.control.context.using.cs",
 			"settings": {
 				"foreground": "#10A793"
 			}
